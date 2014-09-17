@@ -53,6 +53,7 @@ suite('Posts', function() {
 
     function insertPost() {
       Posts.insert({title: 'from c2'});
+      console.log("testing codeship")
     }
   });
 
