@@ -34,27 +34,6 @@ suite('Posts', function() {
     });
   });
 
-  test('using two clients', function(done, server, c1, c2) {
-    c1.eval(function() {
-      Posts.find().observe({
-        added: addedNewPost
-      });
-
-      function addedNewPost(post) {
-        emit('post', post);
-      }
-      emit('done');
-    }).once('post', function(post) {
-      assert.equal(post.title, 'from c2');
-      done();
-    }).once('done', function() {
-      c2.eval(insertPost);
-    });
-
-    function insertPost() {
-      Posts.insert({title: 'from c2'});
-      console.log("testing codeship")
-    }
-  });
+  
 
 });
