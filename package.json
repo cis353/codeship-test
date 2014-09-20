@@ -1,0 +1,12 @@
+{
+  "name": "hello-laika",
+  "version": "0.0.1",
+  "description": "My application description.",  
+  "dependencies" : {
+    "meteor" : "0.8.x",
+    "ejs" : "0.8.x"
+  },
+  "engines" : {
+    "node": "0.10.x"
+  }
+}
