@@ -1,5 +1,1 @@
-#hello-laika
-
-### Very simple meteor app with tests written with [laika](http://arunoda.github.io/laika/)
-[ ![Codeship Status for cis353/hello-laika](https://www.codeship.io/projects/7a285770-20a3-0132-2300-5a4be02c6d84/status)](https://www.codeship.io/projects/36016)
-##[Documentation](http://arunoda.github.io/laika/)
+[ ![Codeship Status for cis353/codeship-test](https://www.codeship.io/projects/928ed350-22fe-0132-8503-364bcc8fbc9d/status)](https://www.codeship.io/projects/36621)
