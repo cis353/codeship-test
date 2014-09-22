@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "My application description.",  
   "dependencies" : {
-    "meteor" : "0.8.x",
+    "meteor" : "0.5.x",
     "ejs" : "0.8.x"
   },
   "engines" : {
